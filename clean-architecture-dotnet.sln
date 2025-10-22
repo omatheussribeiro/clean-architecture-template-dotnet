@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-dotnet", "clean-architecture-dotnet\clean-architecture-dotnet.csproj", "{5B86ECF4-568D-4893-AAC2-E806B7CF00F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-dotnet.Domain", "clean-architecture-dotnet.Domain\clean-architecture-dotnet.Domain.csproj", "{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5B86ECF4-568D-4893-AAC2-E806B7CF00F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B86ECF4-568D-4893-AAC2-E806B7CF00F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B86ECF4-568D-4893-AAC2-E806B7CF00F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
