@@ -6,7 +6,7 @@ namespace clean_architecture_dotnet.Domain.Entities.Expenses
     public class Expense : EntityBase
     {
         public int UserId { get; set; }
-        public int ExpenseIncomeTypeId { get; set; }
+        public int ExpenseTypeId { get; set; }
         public int ExpenseTypeCurrencyId { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
