@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-dotnet",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-dotnet.Domain", "clean-architecture-dotnet.Domain\clean-architecture-dotnet.Domain.csproj", "{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-dotnet.Infrastructure", "clean-architecture-dotnet.Infrastructure\clean-architecture-dotnet.Infrastructure.csproj", "{4D8E4E00-B9CD-4F8A-B01E-B75C7DC3B6EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A68F2D07-CBE6-4D84-8DE2-6885C58168DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8E4E00-B9CD-4F8A-B01E-B75C7DC3B6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8E4E00-B9CD-4F8A-B01E-B75C7DC3B6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8E4E00-B9CD-4F8A-B01E-B75C7DC3B6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8E4E00-B9CD-4F8A-B01E-B75C7DC3B6EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
